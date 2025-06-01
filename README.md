@@ -17,7 +17,12 @@ A análise foi conduzida com base em uma base de dados da Telecom X, contendo in
 
 Os principais pontos abordados foram:
 
+- **Importar e manipular dados de uma API de forma eficiente.**
+- **Aplicar os conceitos de ETL** - Extração, Transformação e Carga.
+- **Criar visualizações de dados estratégicos** para identificar padrões e tendências.
+- **Análise Exploratória de Dados (EDA)**   
 - **Distribuição da evasão (churn)** na base de clientes.
+- **Relação entre sexo do Cliente e churn**
 - **Relação entre tipo de serviço de internet e churn**.
 - **Impacto da ausência de serviços adicionais**, como segurança online e suporte técnico.
 - **Comportamento de churn por tipo de contrato e método de pagamento.**
@@ -55,7 +60,7 @@ Essas visualizações foram fundamentais para entender os padrões de cancelamen
   <img src="graficos/TipoServico2.png" width="600" alt="Taxa de Abandono por Tipo de Serviço de Internet">
   <br><em> Taxa de Abandono por Tipo de Serviço de Internet</em>
 </p>
-**Insight:**  
+Insight:
 Clientes com serviços como **"Sem Internet"** apresentaram taxas de abandono significativamente mais altas, sugerindo que os serviços de internet contribuem para a fidelização.
 
 ### 🔐 Ausência de Segurança Online e Suporte Técnico
@@ -63,8 +68,7 @@ Clientes com serviços como **"Sem Internet"** apresentaram taxas de abandono si
   <img src="graficos/TipoServicoAg.png" width="600" alt="Taxa de Evasão por Tipo de Serviços">
   <br><em>Taxa de Evasão por Tipo de Serviço Valor Agregado</em>
 </p>
-**Insight:**  
-Clientes **sem serviços de segurança online ou suporte técnico** estão muito mais propensos a abandonar a empresa, evidenciando a importância desses adicionais para reter clientes.
+Insight Clientes sem serviços de segurança online ou suporte técnico estão muito mais propensos a abandonar a empresa, evidenciando a importância desses adicionais para reter clientes.
 
 ### 📈 Distribuição Geral do Churn
 
@@ -73,8 +77,7 @@ Clientes **sem serviços de segurança online ou suporte técnico** estão muito
   <br><em>Proporção de Evasão de Clientes Churn</em>
 </p>
 
-**Insight:**  
-A taxa geral de churn foi considerada **alta**, indicando uma necessidade urgente de ações estratégicas de retenção.
+Insight: A taxa geral de churn foi considerada **alta**, indicando uma necessidade urgente de ações estratégicas de retenção.
 
 ---
 
