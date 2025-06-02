@@ -46,7 +46,8 @@ Essas visualizações foram fundamentais para entender os padrões de cancelamen
 │   ├── MetodoPagamento.png
 │   ├── evasaoTipocontrato.png
 │   ├── DistribuicaoPerdas.png 
-│   ├── ContratoTEmpo.png 
+│   ├── ContratoTEmpo.png
+│   ├── MAPACALOR
 ├── README.md                             # Documentação do projeto
 ```
 
@@ -78,6 +79,16 @@ Insight Clientes sem serviços de segurança online ou suporte técnico estão m
 </p>
 
 Insight: A taxa geral de churn foi considerada **alta**, indicando uma necessidade urgente de ações estratégicas de retenção.
+
+### 🔥 Mapa Calor - Faturamento 
+
+<p align="center">
+  <img src="graficos/MAPACALOR.png" width="600" alt="Proporção de Clientes Churn">
+  <br><em>Mapa Calor - Correlação entre Faturamento e Churn</em>
+</p>
+
+Insight: O Faturamento Total tem forte correlação com o Tempo de Contrato, e o Faturamento Mensal não varia muito com o tempo, sugerindo planos com preços similares
+
 
 ---
 
